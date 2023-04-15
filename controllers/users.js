@@ -43,10 +43,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 const con = mysql.createConnection({
     user: "khuptvyw_hearme",
-    host: "68.65.122.110", // replace with the hostname or IP address of the server
+    host: "localhost",
     password: "hearme222***",
-    database: "khuptvyw_hearme",
-    port: 3306 // the port number of your MySQL server, default is 3306
+    database: "khuptvyw_hearme"
 });
 
 // const con = mysql.createConnection({
